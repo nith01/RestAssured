@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name=".myFirstRestAssuredClass"/>
+      <class name="com.qa.rest.tests.AuthenticationUtil"/>
+      <class name="com.qa.rest.tests.normalGET"/>
+      <class name="com.qa.rest.tests.GetCallBDD"/>
+      <class name="com.qa.rest.tests.BasicAuthentication"/>
+      <class name="com.qa.rest.tests.ComplexJsonParse"/>
+      <class name=".Tests_GET"/>
+      <class name="com.qa.rest.tests.DynamicJson"/>
+      <class name="com.qa.rest.tests.Basic"/>
+      <class name="com.qa.rest.tests.TestOnLocalAPI"/>
+      <class name="com.qa.rest.tests.jiraTest"/>
+      <class name="com.qa.rest.tests.Demo_get_request"/>
+      <class name=".Tests_POST"/>
+      <class name=".Test01_GET"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
