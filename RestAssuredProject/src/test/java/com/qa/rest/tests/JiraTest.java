@@ -12,7 +12,7 @@ public class JiraTest {
 		//Login
 		SessionFilter session = new SessionFilter();
 	    String response = given().header("Content-Type","application/json")
-		.body("{ \"username\": \"nitha01sa\", \"password\": \"ThennuZiu*1983\" }").log().all().filter(session)
+		.body("{ \"username\": \"nitha01sa\", \"password\": \"******\" }").log().all().filter(session)
 		.when().post("/rest/auth/1/session").then().log().all().extract().response().asString();
 
 		
